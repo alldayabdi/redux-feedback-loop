@@ -21,21 +21,21 @@ function Feeling(){
       dispatch({type: 'SET_FEELING', payload: feeling})
       history.push('/understanding');
       }
+    }
   
       return (
           <section>
               <header>
                   <h1>How are you feeling today?</h1>
-                  <form onSubmit={handleFeeling} >
+                  <form onSubmit={handleFeeling}
                   <input
                   required 
                   placeholder="name"
                   value={feeling}
                   onChange={(event) =>setFeeling(event.target.value)}>
                   </input>
-                  </form>
               </header>
           </section>
       )
-}}
+}
 export default Feeling;
