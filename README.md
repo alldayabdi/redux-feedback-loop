@@ -1,9 +1,7 @@
 # Project Name
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+Weekend Redux Feedback Loop
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
-
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+The problem that I solved was users being able to leave feedback on a site, the biggest challenge I faced this weekend was time, Saturday and partially Sunday because of personal circumstances I was unable to really sit down and focus, but within the project my biggest issue was storing data in the store until it was time to send it to the Database.
