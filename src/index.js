@@ -14,6 +14,10 @@ const feedbackReducer = (state = {}, action) => {
             return { ...state, feeling: action.payload };
         case 'SET_COMMENTS':
             return { ...state, comments: action.payload };
+             case 'SET_SUPPORT':
+            return { ...state, comments: action.payload };     
+             case 'SET_UNDERSTANDING':
+            return { ...state, comments: action.payload };
 
         default: return state;
 
